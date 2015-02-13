@@ -1,0 +1,74 @@
+Tasks of the rounds{
+	- Requirements (3 weeks)
+	- Design (2 weeks)
+	- Implementation (4 weeks)
+	- Testing (1 week)
+}
+
+
+Be sure to prioritise
+
+- Similiar system to Honey, Disussion board etc, but they do not have the bells and whistles that this one needs...
+
+- Detailed Use cases is NB (pre and post conditions etc)
+
+- Auto generated summary: 
+	Cannot be fully automated. PC Cant know what is important, but a human can upvote. Basically what we said about the Reddit upvoting 
+	system. Keep plugability in mind, for instance to be able to run a script to show only threads that are rated as helpful
+
+- "Marks":
+	
+- Level posting:
+	Post hierarchy. So, moderator choose which users can start threads and which users replies are rated higher than other's
+
+- Post points:
+	Users should be able to upvote posts in order for those posts to bubble up
+
+- Plagiarism checker:
+	Do an open Google search, if it hits, plagiarism occurrs. Exact match. This is low priority (Ms Pieterse).
+
+- Statistical info:
+	Whole idea of "appraisal". Ppl get promoted on their status, by other users' perception of how useful his contributes are.
+
+- Status:
+	Board specific. NOT over the entire forum.
+
+- APIs:
+	Allowed to use open source, APIs, etc.
+- Tracking (point 2):
+	VERY important. Global, user specific. For example: unread threads are bold, while read threads are not.
+
+- Level Content:
+	Depending on level, users can add more formatting to their posts. IE, a newbie can only post text, whilst a next level user can post 
+	images.
+- Social tagging:
+	Way of categorizing things. Like Diggit. Like moderator tags on subreddits.
+
+- Archive:
+	Old threads are to be archived and accessable to curent users. Even when messages and threads are deleted, they must NOT be removed 
+	from the database, so thread must be able to be restored. Users to be notified automatically when their post is deleted.
+
+- Rank:
+	Users can reach a certain rank where they can delete posts. This must be configurable, ie admin decides if this feature is active. 
+	Users' ranks has an influence on the weight of their upvotes. Karma system. Spendable karma??
+
+- Link:
+	Users to come from CS website.
+
+- Roles:
+	Users to have different roles in different sub boards. Like how there are students and tutors in the CS undergrad portal.
+
+- Guest users:
+	Non members should be able to see posts. Need not keep track if certain guests read a post.
+
+- Configurable:
+	Users who creates a thread has more power in his own thread. Users can edit their own posts.
+
+- Board creation:
+	Policy to decide which user can create a "buzzspace".
+
+- Registered for a course:
+	Like current CS website, if a CS student is registered for the course, he is registered on the portal. Configurable.
+
+
+What I deduce from this is that they basically want Reddit...
