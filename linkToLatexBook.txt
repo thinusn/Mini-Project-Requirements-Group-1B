@@ -1,0 +1,5 @@
+Hey guys
+
+Our task has to be written in LaTeX, so to help you guys out, here's a link to a free textbook:
+
+http://en.wikibooks.org/wiki/LaTeX
