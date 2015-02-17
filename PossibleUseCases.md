@@ -1,6 +1,5 @@
 # Identified ways how we can use the system 
 
-
 1. Authentication
     * Login
     * Logout
@@ -13,7 +12,8 @@
     * Update Buzz Space
     * Delete Buzz Space
     * Check user role
-    * Get active Madules 
+	* Get all active modules
+    * Get active Modules for user x
     * Search
 3. Thread
     * Get Buzz Space for Thread
@@ -34,15 +34,20 @@
         * Search
         * Get tags for all Threads
     *  Plagiarism / Netetiquette 
-        *  Check if plagiarised 
+        *  Check if post plagiarised 
         *  Check if Netetiquette violated
-        *  Notify Admin of Netetiquette / Plagiarism breach
-5. Thread Replys (Posts)
+        *  Notify Admin
+4. User Stuff
+    * Get Post Count of User
+    * Update Post Count of User
+    * Increase Number of Upvotes for user
+    * Get number of Upvotes for user
+5. Thread Posts / Replys / Answers 
     * Add Post to thread  
     * Edit Post in thread
     * Delete Post in thread
     * Get Post vote count 
-    * UpVote Post 
+    * Up-vote Post 
 6. Communication
     * Create new Message (Email) Template 
     * Update Message (Email) Template 
