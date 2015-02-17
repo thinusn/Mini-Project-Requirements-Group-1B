@@ -1,6 +1,12 @@
 # Mini-Project
 Group 1B's repository for COS 301 Requirements Stage 
 
+# Links
+1. [Identified Use Cases](https://github.com/thinusn/Mini-Project-Requirements-Group-1B/blob/master/PossibleUseCases.md)
+2. [Possible Questions We want to ask](https://github.com/thinusn/Mini-Project-Requirements-Group-1B/blob/master/possible%20questions%20to%20ask%20at%20info%20session.md)
+3. [Link to Daniel's file for Latex Book](https://github.com/thinusn/Mini-Project-Requirements-Group-1B/blob/master/linkToLatexBook.txt)
+4. [Previous Year Requirements Document (for reference)](https://drive.google.com/file/d/0B0uN305C0RmVQmYxOVZoUXZSVEk/view?usp=sharing) 
+
 # Group Member Details
 1. 13033922 Elzahn Botha
 2. 12223426 Estian Rosslee
@@ -10,11 +16,15 @@ Group 1B's repository for COS 301 Requirements Stage
 6. 13028741 Frikkie Snyman
 7. 13019602 Thinus Naude
 
-# Who does what (so far) 
-1. System Features  - Estian
-2. Use Cases - Jaco and Thinus 
-3. Database stuff (ERD) - Frikkie
-
-# Links
-1. [Previoous Year Requirements Dockument (for reference)](https://drive.google.com/file/d/0B0uN305C0RmVQmYxOVZoUXZSVEk/view?usp=sharing) 
-2. [Possible Questions We want to ask](https://drive.google.com/file/d/0B0uN305C0RmVdWJQTXc1M3RUXzg/view?usp=sharing)
+# Who does what (subject to change) 
+1. Introduction - ???
+2. Vision - ???
+3. BAckground - ???
+4. Architecture requirements - __Estian__
+5. Functional requirements and application design
+	* Use case prioritization - ???
+	* Use case/Services contracts - ???
+	* Required functionality (Use Cases)  - __Jaco and Thinus __
+	* Process specifications (Activity and/or sequence diagrams)  - __Elzahn and Paul__
+	* Domain Model (Database stuff) - __Frikkie__
+6. Open Issues - ???
