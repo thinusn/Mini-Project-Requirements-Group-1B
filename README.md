@@ -6,7 +6,7 @@ Group 1B's repository for COS 301 Requirements Stage
 2. 12223426 Estian Rosslee
 3. 13025105 Jaco-Louis Kruger 
 4. 13073878 Daniel Araüjo
-5. **13093500 Paul Engelke ??? WHO IS HE ???**
+5. 13093500 Paul Engelke
 6. 13028741 Frikkie Snyman
 7. 13019602 Thinus Naude
 
