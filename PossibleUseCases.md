@@ -15,3 +15,25 @@
     * Check user role
     * Get active Madules 
     * Search
+3. Thread
+    * Get Buzz Space for Thread
+    * Create new Thread
+    * Get Threads for Buzz Space
+    * Update Thread
+    * Delete Thread
+    * Close / Lock Thread
+    * Hide Thread 
+    * Get Thread Tags 
+    * Report Thread for review
+    * Check thread for allowed content
+    * Tagging
+        * Create New Tag For Thread
+        * Remove Tag Fro Thread
+        * Get tags for Thread
+        * Index
+        * Search
+        * Get tags for all Threads
+    *  Plagiarism / Netetiquette 
+        *  Check if plagarised 
+        *  Check if Netetiquette violated
+        *  Notify Admin
