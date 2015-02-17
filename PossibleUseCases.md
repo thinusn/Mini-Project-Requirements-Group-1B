@@ -34,6 +34,22 @@
         * Search
         * Get tags for all Threads
     *  Plagiarism / Netetiquette 
-        *  Check if plagarised 
+        *  Check if plagiarised 
         *  Check if Netetiquette violated
-        *  Notify Admin
+        *  Notify Admin of Netetiquette / Plagiarism breach
+5. Thread Replys (Posts)
+    * Add Post to thread  
+    * Edit Post in thread
+    * Delete Post in thread
+    * Get Post vote count 
+    * UpVote Post 
+6. Communication
+    * Create new Message (Email) Template 
+    * Update Message (Email) Template 
+    * Delete Message (Email)Template
+    * Get all Message (Email) Templates
+    * Notify all users with template xxx
+    * Notify 1 user 
+7. Analytics
+    * Get Post count 
+    * Get Login Statistics 
