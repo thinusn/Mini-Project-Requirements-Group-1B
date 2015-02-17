@@ -1,0 +1,17 @@
+Priority levels (1 = highest)
+
+1: 
+	Creation of buzz spaces and threads
+	Posting and commenting
+
+2:
+	User authentication
+	User actions
+
+3:
+	Social tagging
+
+4:
+	Communication
+	Plagiarism checker
+	Netiquette checker
