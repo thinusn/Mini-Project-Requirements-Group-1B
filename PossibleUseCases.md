@@ -15,6 +15,8 @@
 	* 2.6 Get all active modules
     * 2.7 Get active Modules for user x
     * 2.8 Search
+	* 2.9 Create Root Thread
+	* 2.10 Store Buzz Space
 3. Thread
     * 3.1 Get Buzz Space for Thread
     * 3.2 Create new Thread
