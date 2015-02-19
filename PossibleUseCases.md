@@ -28,28 +28,21 @@
     * 3.8 Get Thread Tags 
     * 3.9 Report Thread for review
     * 3.10 Check thread for allowed content
-    * 3.11 Tagging
-        * 3.11.1 Create New Tag For Thread
-        * 3.11.2 Remove Tag Fro Thread
-        * 3.11.3 Get tags for Thread
-        * 3.11.4 Index
-        * 3.11.5 Search
-        * 3.11.6 Get tags for all Threads
-    *  3.12 Plagiarism / Netetiquette 
-        *  3.12.1 Check if post plagiarised 
-        *  3.12.2 Check if Netetiquette violated
-        *  3.12.3 Notify Admin
 4. User Stuff
     * 4.1 Get Post Count of User
     * 4.2 Update Post Count of User
-    * 4.3 Increase Number of Upvotes for user
-    * 4.4 Get number of Upvotes for user
-5. Thread Posts / Replys / Answers 
+    * 4.3 Increase Number of votes for user
+    * 4.4 Get number of votes for user
+	* 4.5 Get User details
+	* 4.6 Update User details
+5. Thread Posts / Comments / Answers 
     * 5.1 Add Post to thread  
     * 5.2 Edit Post in thread
     * 5.3 Delete Post in thread
     * 5.4 Get Post vote count 
-    * 5.5 Up-vote Post 
+    * 5.5 Rate Post (upvote / downvote)
+	* 5.6 Get Thread
+	* 5.7 Get post
 6. Communication
     * 6.1 Create new Message (Email) Template 
     * 6.2 Update Message (Email) Template 
@@ -60,3 +53,14 @@
 7. Analytics
     * 7.1 Get Post count 
     * 7.2 Get Login Statistics 
+8. Tagging
+	* 8.1 Create New Tag For Thread
+	* 8.2 Remove Tag Fro Thread
+	* 8.3 Get tags for Thread
+	* 8.4 Index
+	* 8.5 Search
+	* 8.6 Get tags for all Threads
+9. Plagiarism / Netetiquette 
+	*  9.1 Check if post plagiarised 
+	*  9.2 Check if Netetiquette violated
+	*  9.3 Notify Admin
