@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.26)  26 FEB 2015 11:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.26)  26 FEB 2015 17:40
 entering extended mode
 **COS*301*Mini*Project*Functional*requirements*and*application*design*Group*1B.
 tex
@@ -192,6 +192,14 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count98
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
 ("C:\Users\Thinus\Documents\GitHub\Mini-Project-Requirements-Group-1B\latex\COS
  301 Mini Project Functional requirements and application design Group 1B.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -210,19 +218,19 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 (C:\Users\Thinus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count98
+\scratchcounter=\count99
 \scratchdimen=\dimen109
-\scratchbox=\box26
-\nofMPsegments=\count99
-\nofMParguments=\count100
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count101
+\scratchbox=\box28
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count102
 \MPscratchDim=\dimen110
-\MPnumerator=\count102
-\makeMPintoPDFobject=\count103
-\everyMPtoPDFconversion=\toks16
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks18
 )
-\AtBeginShipoutBox=\box27
+\AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 7.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -230,7 +238,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count104
+\c@section@level=\count105
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -275,81 +283,287 @@ Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
  [2]
-<githubCommits.png, id=74, 496.7358pt x 692.20073pt>
+<githubCommits.png, id=237, 496.7358pt x 692.20073pt>
 File: githubCommits.png Graphic file (type png)
  <use githubCommits.png>
-Package pdftex.def Info: githubCommits.png used on input line 49.
+Package pdftex.def Info: githubCommits.png used on input line 48.
 (pdftex.def)             Requested size: 430.31812pt x 599.6643pt.
 
-[3 <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/g
-ithubCommits.png>] [4] <AuthenticationSC.png, id=90, 763.85374pt x 347.2975pt>
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 \section
+             {Functional requirements and application design} <C:/Users/Thinus/
+Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/githubCommits.png>]
+[4] <AuthenticationSC.png, id=249, 763.85374pt x 347.2975pt>
 File: AuthenticationSC.png Graphic file (type png)
 
 <use AuthenticationSC.png>
 Package pdftex.def Info: AuthenticationSC.png used on input line 85.
 (pdftex.def)             Requested size: 430.31812pt x 195.65112pt.
- <BuzzSpaceSC.png, id=91, 912.40875pt x 515.9275pt>
+ <BuzzSpaceSC.png, id=250, 912.40875pt x 515.9275pt>
 File: BuzzSpaceSC.png Graphic file (type png)
 
 <use BuzzSpaceSC.png>
 Package pdftex.def Info: BuzzSpaceSC.png used on input line 91.
 (pdftex.def)             Requested size: 430.31812pt x 243.32043pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
-<PlagiarismNetetiquetteSC.png, id=92, 682.55pt x 347.2975pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.94 
+      <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/late
+x/AuthenticationSC.png (PNG copy)>]
+<CommunicationSC.png, id=257, 687.56876pt x 558.085pt>
+File: CommunicationSC.png Graphic file (type png)
+
+<use CommunicationSC.png>
+Package pdftex.def Info: CommunicationSC.png used on input line 98.
+(pdftex.def)             Requested size: 430.31812pt x 349.27914pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.101 
+       <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/lat
+ex/BuzzSpaceSC.png (PNG copy)>]
+<PlagiarismNetetiquetteSC.png, id=264, 682.55pt x 347.2975pt>
 File: PlagiarismNetetiquetteSC.png Graphic file (type png)
 
 <use PlagiarismNetetiquetteSC.png>
-Package pdftex.def Info: PlagiarismNetetiquetteSC.png used on input line 98.
+Package pdftex.def Info: PlagiarismNetetiquetteSC.png used on input line 105.
 (pdftex.def)             Requested size: 430.31812pt x 218.95755pt.
- [5 <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/
-AuthenticationSC.png (PNG copy)> <C:/Users/Thinus/Documents/GitHub/Mini-Project
--Requirements-Group-1B/latex/BuzzSpaceSC.png (PNG copy)>] <TaggingSC.png, id=10
-2, 728.7225pt x 431.6125pt>
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.108 		\subsubsection
+                      {Tagging} <C:/Users/Thinus/Documents/GitHub/Mini-Project-
+Requirements-Group-1B/latex/CommunicationSC.png (PNG copy)>]
+<TaggingSC.png, id=270, 728.7225pt x 431.6125pt>
 File: TaggingSC.png Graphic file (type png)
-
-<use TaggingSC.png>
-Package pdftex.def Info: TaggingSC.png used on input line 104.
+ <use TaggingSC.png>
+Package pdftex.def Info: TaggingSC.png used on input line 111.
 (pdftex.def)             Requested size: 430.31812pt x 254.86649pt.
- [6 <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/
-PlagiarismNetetiquetteSC.png (PNG copy)> <C:/Users/Thinus/Documents/GitHub/Mini
--Project-Requirements-Group-1B/latex/TaggingSC.png (PNG copy)>] [7] [8] [9] <do
-mainModel.png, id=146, 695.59875pt x 712.6625pt>
-File: domainModel.png Graphic file (type png)
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 
-<use domainModel.png>
-Package pdftex.def Info: domainModel.png used on input line 137.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.121 		\subsubsection
+                      {Thread Posts}pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.121 		\subsubsection
+                      {Thread Posts} <C:/Users/Thinus/Documents/GitHub/Mini-Pro
+ject-Requirements-Group-1B/latex/PlagiarismNetetiquetteSC.png (PNG copy)> <C:/U
+sers/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/TaggingSC
+.png (PNG copy)>] <ThreadPostsSC.png, id=277, 934.49126pt x 651.43375pt>
+File: ThreadPostsSC.png Graphic file (type png)
+
+<use ThreadPostsSC.png>
+Package pdftex.def Info: ThreadPostsSC.png used on input line 124.
+(pdftex.def)             Requested size: 430.31812pt x 299.9713pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135 	\subsection
+                  {Required functionality}pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.9}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135 	\subsection
+                  {Required functionality}pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.10}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135 	\subsection
+                  {Required functionality} <C:/Users/Thinus/Documents/GitHub/Mi
+ni-Project-Requirements-Group-1B/latex/ThreadPostsSC.png (PNG copy)>]
+<AnalyticsUC.png, id=285, 516.93124pt x 286.06876pt>
+File: AnalyticsUC.png Graphic file (type png)
+ <use AnalyticsUC.png>
+Package pdftex.def Info: AnalyticsUC.png used on input line 139.
+(pdftex.def)             Requested size: 430.31812pt x 238.14413pt.
+
+<AuthenticationUC.png, id=286, 688.5725pt x 330.23375pt>
+File: AuthenticationUC.png Graphic file (type png)
+
+<use AuthenticationUC.png>
+Package pdftex.def Info: AuthenticationUC.png used on input line 145.
+(pdftex.def)             Requested size: 430.31812pt x 206.37541pt.
+ <BuzzSpaceUC.png, id=287, 877.2775pt x 494.84875pt>
+File: BuzzSpaceUC.png Graphic file (type png)
+
+<use BuzzSpaceUC.png>
+Package pdftex.def Info: BuzzSpaceUC.png used on input line 151.
+(pdftex.def)             Requested size: 430.31812pt x 242.73474pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.154 		\subsubsection
+                      {Communication}pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.154 		\subsubsection
+                      {Communication} <C:/Users/Thinus/Documents/GitHub/Mini-Pr
+oject-Requirements-Group-1B/latex/AnalyticsUC.png (PNG copy)> <C:/Users/Thinus/
+Documents/GitHub/Mini-Project-Requirements-Group-1B/latex/AuthenticationUC.png 
+(PNG copy)>] <CommunicationUC.png, id=294, 589.20125pt x 497.86pt>
+File: CommunicationUC.png Graphic file (type png)
+
+<use CommunicationUC.png>
+Package pdftex.def Info: CommunicationUC.png used on input line 157.
+(pdftex.def)             Requested size: 430.31812pt x 363.6095pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.160 		\subsubsection
+                      {Plagiarism / Netetiquette} <C:/Users/Thinus/Documents/Gi
+tHub/Mini-Project-Requirements-Group-1B/latex/BuzzSpaceUC.png (PNG copy)>]
+<PlagiarismNetetiquetteUC.png, id=300, 638.385pt x 475.7775pt>
+File: PlagiarismNetetiquetteUC.png Graphic file (type png)
+
+<use PlagiarismNetetiquetteUC.png>
+Package pdftex.def Info: PlagiarismNetetiquetteUC.png used on input line 163.
+(pdftex.def)             Requested size: 430.31812pt x 320.70761pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.166 		\subsubsection
+                      {Tagging} <C:/Users/Thinus/Documents/GitHub/Mini-Project-
+Requirements-Group-1B/latex/CommunicationUC.png (PNG copy)>]
+<TaggingUC.png, id=307, 734.745pt x 495.8525pt>
+File: TaggingUC.png Graphic file (type png)
+ <use TaggingUC.png>
+Package pdftex.def Info: TaggingUC.png used on input line 169.
+(pdftex.def)             Requested size: 430.31812pt x 290.40923pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.172 		\subsubsection
+                      {Thread} <C:/Users/Thinus/Documents/GitHub/Mini-Project-R
+equirements-Group-1B/latex/PlagiarismNetetiquetteUC.png (PNG copy)>]
+<ThreadUC.png, id=313, 656.4525pt x 577.15625pt>
+File: ThreadUC.png Graphic file (type png)
+ <use ThreadUC.png>
+Package pdftex.def Info: ThreadUC.png used on input line 175.
+(pdftex.def)             Requested size: 430.31812pt x 378.34393pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.178 		\subsubsection
+                      {Thread Posts} <C:/Users/Thinus/Documents/GitHub/Mini-Pro
+ject-Requirements-Group-1B/latex/TaggingUC.png (PNG copy)>]
+<ThreadPostsUC.png, id=319, 663.47874pt x 389.455pt>
+File: ThreadPostsUC.png Graphic file (type png)
+ <use ThreadPostsUC.png>
+Package pdftex.def Info: ThreadPostsUC.png used on input line 181.
+(pdftex.def)             Requested size: 430.31812pt x 252.59007pt.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.184 		\subsubsection
+                      {User} <C:/Users/Thinus/Documents/GitHub/Mini-Project-Req
+uirements-Group-1B/latex/ThreadUC.png (PNG copy)>]
+<USerUC.png, id=325, 607.26875pt x 445.665pt>
+File: USerUC.png Graphic file (type png)
+ <use USerUC.png>
+Package pdftex.def Info: USerUC.png used on input line 187.
+(pdftex.def)             Requested size: 430.31812pt x 315.81233pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.18
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 	\subsection
+                  {Process specifications} <C:/Users/Thinus/Documents/GitHub/Mi
+ni-Project-Requirements-Group-1B/latex/ThreadPostsUC.png (PNG copy)>] [17pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.19}) has bee
+n already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 	\subsection
+                  {Process specifications} <C:/Users/Thinus/Documents/GitHub/Mi
+ni-Project-Requirements-Group-1B/latex/USerUC.png (PNG copy)>] [18]
+<domainModel.png, id=341, 695.59875pt x 712.6625pt>
+File: domainModel.png Graphic file (type png)
+ <use domainModel.png>
+Package pdftex.def Info: domainModel.png used on input line 206.
 (pdftex.def)             Requested size: 430.31812pt x 440.8675pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
- [10 <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirements-Group-1B/latex
-/domainModel.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.210 \end{document}
+                     <C:/Users/Thinus/Documents/GitHub/Mini-Project-Requirement
+s-Group-1B/latex/domainModel.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 
 ("C:\Users\Thinus\Documents\GitHub\Mini-Project-Requirements-Group-1B\latex\COS
  301 Mini Project Functional requirements and application design Group 1B.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `COS*301*Mini*Project*Functional*requirements
 *and*application*design*Group*1B.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 5133 strings out of 493921
- 78273 string characters out of 3144873
- 153712 words of memory out of 3000000
- 8340 multiletter control sequences out of 15000+200000
+ 5301 strings out of 493921
+ 81314 string characters out of 3144873
+ 160052 words of memory out of 3000000
+ 8470 multiletter control sequences out of 15000+200000
  8966 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,28p,320b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,28p,321b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on "COS 301 Mini Project Functional requirements and application
- design Group 1B.pdf" (11 pages, 723380 bytes).
+ design Group 1B.pdf" (20 pages, 1382594 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 430 words of extra memory for PDF output out of 10000 (max. 10000000)
 
