@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper]{article}
+\begin{document}
+\begin{titlepage}
+\title{Architectural Requirements}
+\author{12223426}
+\maketitle
+\end{titlepage}
+
+
+\section{Architecture requirements}
+The purpose of this section is to describe the software architecture requirements so as to address the non-functional requirements. In particular, the architecture requirements will specify:
+\begin{itemize}
+	\item the access channel requirements for the system,
+	\item the quality requirements,
+	\item the integration requirements, and
+	\item the architecture constraints specified by the client.
+\end{itemize}
+
+\subsection{Access channel requirements}
+The system should be accessible by human users through only the following channel:
+\begin{itemize}
+	\item Through a web browser through a web interface. The system must be accessible from all of the widely used web browsers including all of the most recent versions of Apple Safari, Google Chrome, Microsoft Internet Explorer, and Mozilla Firefox.
+\end{itemize}
+
+Other systems should be able to access the services offered by the system through either restful or SOAP-based web services.
+
+\subsection{Quality requirements}
+	\subsubsection{Performance}
+	The client has not specified any strict performance requirements for the system.
+	\begin{itemize}
+		\item All operations should respond in under 1 second.
+	\end{itemize}
+	
+	\subsubsection{Scalability}
+	\begin{itemize}
+		\item The system must be able to operate effectively under the load of all registered students within the department of Computer Science.
+	\end{itemize}
+		
+	\subsubsection{Security}
+	\begin{itemize}
+		\item All communication of sensitive data must be done securely using HTTPS.
+		\item All system functionality is only accessible to users who can be successfully authenticated through the LDAP system used by the department of Computer Science.
+	\end{itemize}
+	
+	\subsubsection{Auditability}
+	\begin{itemize}
+		\item Each action on the system must be recorded in an audit log that can later be viewed and queried.
+		\item Information to be recorded must include:
+		\begin{itemize}
+			\item The identity of the individual carrying out the action
+			\item A description of the action
+			\item When the action was carried out
+		\end{itemize}
+	\end{itemize}
+	
+	\subsubsection{Usability}
+	\begin{itemize}
+		\item The average student should be able to use the system without any prior training.
+		\item Initially only English needs to be supported, but the system must allow for translations to the other official languages of the University of Pretoria to be added at a later stage.
+	\end{itemize}
+	
+	\subsubsection{Testability}
+	Each service provided by the system must be testable through a unit test that tests
+	\begin{itemize}
+		\item that the service is provided if all pre-conditions are met, and
+		\item that all post-conditions hold true once the service has been provided.
+	\end{itemize}
+
+\subsection{Integration requirements}
+The system will need to be able to access
+\begin{itemize}
+	\item the CS LDAP server to retrieve student and personal details and class lists.
+	\item the CS MySQL database to access course information.
+\end{itemize}
+
+The system needs to be able to integrate with a generic LDAP data structure so as to be able to be used by other institutions at a later stage.
+
+\subsection{Architecture constraints}
+The following architecture constraints are imposed:
+\begin{enumerate}
+	\item The system must be decoupled from the choice of database. The system will use the MySQL database.
+	\item Web services must be published as either SOAP-based or Restful web services.
+\end{enumerate}
+
+\end{document}
