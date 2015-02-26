@@ -13,31 +13,28 @@
 \contentsline {subsection}{\numberline {2.2}Services contracts}{5}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Analytics}{5}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Authentication}{5}{subsubsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.3}BuzzSpace}{6}{subsubsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.4}Communication}{7}{subsubsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.5}Plagiarism / Netetiquette}{8}{subsubsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.6}Tagging}{8}{subsubsection.2.2.6}
-\contentsline {subsubsection}{\numberline {2.2.7}Thread}{9}{subsubsection.2.2.7}
-\contentsline {subsubsection}{\numberline {2.2.8}Thread Posts}{9}{subsubsection.2.2.8}
-\contentsline {subsubsection}{\numberline {2.2.9}User}{9}{subsubsection.2.2.9}
-\contentsline {subsection}{\numberline {2.3}Required functionality}{10}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Analytics}{10}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Authentication}{10}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}BuzzSpace}{11}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Communication}{12}{subsubsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.5}Plagiarism / Netetiquette}{13}{subsubsection.2.3.5}
-\contentsline {subsubsection}{\numberline {2.3.6}Tagging}{14}{subsubsection.2.3.6}
-\contentsline {subsubsection}{\numberline {2.3.7}Thread}{15}{subsubsection.2.3.7}
-\contentsline {subsubsection}{\numberline {2.3.8}Thread Posts}{16}{subsubsection.2.3.8}
-\contentsline {subsubsection}{\numberline {2.3.9}User}{17}{subsubsection.2.3.9}
-\contentsline {subsection}{\numberline {2.4}Process specifications}{18}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Analytics}{18}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Authentication}{18}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}BuzzSpace}{18}{subsubsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.4}Communication}{18}{subsubsection.2.4.4}
-\contentsline {subsubsection}{\numberline {2.4.5}Plagiarism / Netetiquette}{18}{subsubsection.2.4.5}
-\contentsline {subsubsection}{\numberline {2.4.6}Tagging}{18}{subsubsection.2.4.6}
-\contentsline {subsubsection}{\numberline {2.4.7}Thread}{18}{subsubsection.2.4.7}
-\contentsline {subsubsection}{\numberline {2.4.8}Thread posts}{18}{subsubsection.2.4.8}
-\contentsline {subsubsection}{\numberline {2.4.9}User}{18}{subsubsection.2.4.9}
-\contentsline {subsection}{\numberline {2.5}Domain Model}{19}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.2.3}BuzzSpace}{5}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Communication}{6}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Plagiarism / Netetiquette}{7}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Tagging}{7}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}Thread}{8}{subsubsection.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.8}Thread Posts}{8}{subsubsection.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.9}User}{8}{subsubsection.2.2.9}
+\contentsline {subsection}{\numberline {2.3}Required functionality}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Analytics}{9}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Authentication}{9}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}BuzzSpace}{10}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Communication}{11}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Plagiarism / Netetiquette}{12}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}Tagging}{13}{subsubsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.7}Thread}{14}{subsubsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.8}Thread Posts}{15}{subsubsection.2.3.8}
+\contentsline {subsubsection}{\numberline {2.3.9}User}{16}{subsubsection.2.3.9}
+\contentsline {subsection}{\numberline {2.4}Process specifications}{17}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Authentication}{17}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}BuzzSpace}{18}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Communication}{20}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Tagging}{25}{subsubsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.5}Thread}{28}{subsubsection.2.4.5}
+\contentsline {subsubsection}{\numberline {2.4.6}Thread posts}{31}{subsubsection.2.4.6}
+\contentsline {subsection}{\numberline {2.5}Domain Model}{34}{subsection.2.5}
