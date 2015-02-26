@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{color}
-
+\usepackage{float}
 \begin{document}
 \begin{titlepage}
 	\begin{center}
@@ -23,49 +23,48 @@
 		\item 13033922 Elzahn Botha
 		\item 12223426 Estian Rosslee
 		\item 13025105 Jaco-Louis Kruger
-		\item 13073878 Daniel Araüjo
+		\item 13073878 Christopher Araüjo
 		\item 13093500 Paul Engelke
 		\item 13028741 Frikkie Snyman
 		\item 13019602 Thinus Naude
 	\end{itemize}
 	\subsection{Contributions to project}
-	\subsection*{Participation}
-	Estian Rosslee (12223426) only attended the two 1-hour meetings we had, \textbf{he did not do any of the work presented in this document.} All other members of the group participated fully towards completing the project.
-	\subsection*{Who did what}
-		\begin{itemize}
-			\item Planning: Everyone
-			\item Use case prioritization: Everyone
-			\item Services contracts: Daniel Araüjo, Thinus Naude, Paul Engelke and Frikkie Snyman
-			\item Required functionality: Jaco-Louis Kruger and Thinus Naude
-			\item Process specifcations: Elzahn Botha, Daniel Araüjo, Paul Engelke
-			\item Domain Model: Frikkie Snyman
-			\item Latex and Gitgub: Thinus Naude
-		\end{itemize}
-	\pagebreak
-	\subsection*{Github contribution}
-     %	\large\textbf{\colorbox{green}{IMAGE OF GITHUB CONTRIBUTIONS}}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.95\textwidth]{githubCommits.png}
-		\caption{Github pushes for project.}
-	\end{figure}
+		\subsubsection{Participation}
+		Estian Rosslee (12223426) only attended the two 1-hour meetings we had, \textbf{he did not do any of the work presented in this document.} All other members of the group participated fully towards completing the project.
+		\subsubsection{Who did what}
+			\begin{itemize}
+				\item Planning: Everyone
+				\item Use case prioritization: Everyone
+				\item Services contracts: Jaco-Louis Kruger, Daniel Araüjo, Thinus Naude, Paul Engelke and Frikkie Snyman
+				\item Required functionality: Jaco-Louis Kruger and Thinus Naude
+				\item Process specifcations: Elzahn Botha, Daniel Araüjo, Paul Engelke
+				\item Domain Model: Frikkie Snyman
+				\item LaTex: Thinus Naude
+			\end{itemize}
+		\pagebreak
+		\subsubsection{Github contribution}
+		\begin{figure}[!htbp]
+			\centering
+			\includegraphics[width=0.95\textwidth]{githubCommits.png}
+			\caption{Github pushes for project.}
+		\end{figure}
 \pagebreak
 \section{Functional requirements and application design}
 	\subsection{Use case prioritization}
-	\subsection*{Critical}A use case which is absolutely essential
+	\subsubsection{Critical}A use case which is absolutely essential
 	\begin{itemize}
 		\item Create, Read/View/Get, Delete and Update of BuzzSpace
 		\item Create, Read/View/Get, Delete and Update of Thread
 		\item Create, Read/View/Get, Delete and Update of Thread Posts
 		\item Authentication	
 	\end{itemize}
-	\subsection*{Important}The system would still be useful without some of the important use cases, but the client would get quantifiably less value from the system.
+	\subsubsection{Important}The system would still be useful without some of the important use cases, but the client would get quantifiably less value from the system.
 		\begin{itemize}
 			\item User (profiles and actions)
 			\item User Communication (Email Templates)
 			\item Tagging
 		\end{itemize}
-	\subsection*{Nice-To-Have}Its a requirement but the value to the clientis insignificant.
+	\subsubsection{Nice-To-Have}Its a requirement but the value to the clientis insignificant.
 		\begin{itemize}
 			\item Plagiarism checker
 			\item Netiquette checker
@@ -73,66 +72,136 @@
 
 \pagebreak
 	\subsection{Services contracts}
-		\subsection*{Analytics}
-			%\begin{figure}[h!]
-			%	\centering
-			%	\includegraphics[width=0.95\textwidth]{AnalyticsSC.png}
-			%	\caption{Analytics Services contracts.}
-			%\end{figure}
-		\subsection*{Authentication}
-			\begin{figure}[h!]
+		\subsubsection{Analytics}
+			\begin{figure}[H]
+				\centering
+				%\includegraphics[width=0.95\textwidth]{AnalyticsSC.png}
+				\large\textbf{\colorbox{green}{IMAGE OF AnalyticsSC}}
+				\caption{Analytics services contracts.}
+			\end{figure}
+		\subsubsection{Authentication}
+			\begin{figure}[H]
 						\centering
 						\includegraphics[width=0.95\textwidth]{AuthenticationSC.png}
-						\caption{Authentication Services contracts.}
+						\caption{Authentication services contracts.}
 			\end{figure}
-		\subsection*{BuzzSpace}
-					\begin{figure}[h!]
+		\subsubsection{BuzzSpace}
+					\begin{figure}[H]
 						\centering
 						\includegraphics[width=0.95\textwidth]{BuzzSpaceSC.png}
-						\caption{BuzzSpace Services contracts.}
+						\caption{BuzzSpace services contracts.}
 					\end{figure}
-		\subsection*{Communication}
-		\subsection*{Plagiarism / Netetiquette}
-		\begin{figure}[h!]
-			\centering
-			\includegraphics[width=0.95\textwidth]{PlagiarismNetetiquetteSC.png}
-			\caption{Plagiarism and Netetiquette Services contracts.}
-		\end{figure}
-		\subsection*{Tagging}
-			\begin{figure}[h!]
+					
+		\subsubsection{Communication}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{CommunicationSC.png}
+				\caption{Communication services contracts.}
+			\end{figure}
+		
+		\subsubsection{Plagiarism / Netetiquette}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{PlagiarismNetetiquetteSC.png}
+				\caption{Plagiarism and Netetiquette services contracts.}
+			\end{figure}
+		\subsubsection{Tagging}
+			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.95\textwidth]{TaggingSC.png}
-				\caption{Tagging Services contracts.}
+				\caption{Tagging services contracts.}
 			\end{figure}
-		\subsection*{Thread}
-		\subsection*{Thread Posts}
-		\subsection*{User}
+		\subsubsection{Thread}
+			\begin{figure}[H]
+				\centering
+				%\includegraphics[width=0.95\textwidth]{ThreadSC.png}
+				\large\textbf{\colorbox{green}{IMAGE OF ThreadSC}}
+				\caption{Tagging services contracts.}
+			\end{figure}	
+		\subsubsection{Thread Posts}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\textwidth]{ThreadPostsSC.png}
+			\caption{Thread Posts services contracts.}
+		\end{figure}	
+		\subsubsection{User}
+			\begin{figure}[H]
+				\centering
+				%\includegraphics[width=0.95\textwidth]{ThreadSC.png}
+				\large\textbf{\colorbox{green}{IMAGE OF UserSC}}
+				\caption{Tagging services contracts.}
+			\end{figure}
 \pagebreak
 	\subsection{Required functionality}
-		\subsection*{Analytics}
-		\subsection*{Authentication}
-		\subsection*{BuzzSpace}
-		\subsection*{Communication}
-		\subsection*{Plagiarism / Netetiquette}
-		\subsection*{Tagging}
-		\subsection*{Thread}
-		\subsection*{Thread posts}
-		\subsection*{User}
+		\subsubsection{Analytics}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{AnalyticsUC.png}
+				\caption{Analytics sub system use case diagram.}
+			\end{figure}
+		\subsubsection{Authentication}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{AuthenticationUC.png}
+				\caption{Authentication sub system use case diagram.}
+			\end{figure}
+		\subsubsection{BuzzSpace}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{BuzzSpaceUC.png}
+				\caption{BuzzSpace sub system use case diagram.}
+			\end{figure}
+		\subsubsection{Communication}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{CommunicationUC.png}
+				\caption{Communication sub system use case diagram.}
+			\end{figure}
+		\subsubsection{Plagiarism / Netetiquette}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{PlagiarismNetetiquetteUC.png}
+				\caption{Plagiarism and Netetiquette sub system use case diagram.}
+			\end{figure}
+		\subsubsection{Tagging}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{TaggingUC.png}
+				\caption{Tagging sub system use case diagram.}
+			\end{figure}
+		\subsubsection{Thread}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{ThreadUC.png}
+				\caption{Tagging sub system use case diagram.}
+			\end{figure}	
+		\subsubsection{Thread Posts}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{ThreadPostsUC.png}
+				\caption{Thread Posts sub system use case diagram.}
+			\end{figure}	
+		\subsubsection{User}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\textwidth]{USerUC.png}
+				\caption{Tagging sub system use case diagram.}
+			\end{figure}
 \pagebreak
-	\subsection{Process specifcations}
-		\subsection*{Analytics}
-		\subsection*{Authentication}
-		\subsection*{BuzzSpace}
-		\subsection*{Communication}
-		\subsection*{Plagiarism / Netetiquette}
-		\subsection*{Tagging}
-		\subsection*{Thread}
-		\subsection*{Thread posts}
-		\subsection*{User}
+	\subsection{Process specifications}
+		\subsubsection{Analytics}
+		\subsubsection{Authentication}
+		\subsubsection{BuzzSpace}
+		\subsubsection{Communication}
+		\subsubsection{Plagiarism / Netetiquette}
+		\subsubsection{Tagging}
+		\subsubsection{Thread}
+		\subsubsection{Thread posts}
+		\subsubsection{User}
 
 \pagebreak
 	\subsection{Domain Model}
-		\begin{figure}[h!]
+		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.95\textwidth]{domainModel.png}
 			\caption{Domain model for the discussion board.}
